@@ -3,17 +3,27 @@ body{
 }
 .section-1-Stay-Focused{
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 6%;
 }
 
 .border-left{
-    border-left: 5px solid #FF5959;
     font-family: 'Yeseva One', cursive;
     font-size: 40px;
-    padding-left: 5%;
+    padding-left: 4%;
     margin-bottom: -20px;
     margin-top: -20px;
+    position: relative; 
  
+}
+.border-left::before{
+    position: absolute;
+    content: "";
+    top: 9px;
+    left: 6px;
+    width: 4px;
+    height: 120px;
+    background-color: #FF5959;
+    border-radius: 15px;
 }
 .h1-span{
     color: #FFAD5A;
@@ -27,7 +37,7 @@ body{
 .half-width-1{
     width:40%;
     margin-left: 5%;
-    padding-left: 2%;
+    padding-left: 4%;
     padding-top: 10%;
 }
 .half-width-1 img{
@@ -44,15 +54,17 @@ body{
 .anchor-button{
     text-decoration: none;
     background-color: #FF5959    ;
-    padding: 15px 40px;
+    padding: 17px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    font-size: 20px;
 }
 .one-third-width{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
     display: flex;
+    font-size: 20px;
 }
 .one-third-width img{
     width: 50%;
@@ -62,7 +74,7 @@ body{
     margin-bottom: 5%;
 }
 .section-2-h2{
-    font-size: 45px;
+    font-size: 50px;
     text-align: center;
 }
 .one-third-width-1{
@@ -85,6 +97,19 @@ body{
     padding: 2%;
     background-color: #fff4d6;
     border-radius: 10%;
+}
+.half-width-3{
+    width:60%;
+    font-size: 30px;
+    padding-left: 4%;
+}
+.half-width-4{
+    width:40%;
+    margin-left: 5%;
+    padding-left: 4%;
+}
+.half-width-4 img{
+    width: 70%;
 }
 .about-me{
     
