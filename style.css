@@ -3,6 +3,7 @@ body{
 }
 .section-1-Stay-Focused{
     display: flex;
+    margin-bottom: 5%;
 }
 
 .border-left{
@@ -58,6 +59,7 @@ body{
 }
 .section-2-my-mission{
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 5%;
 }
 .section-2-h2{
     font-size: 45px;
@@ -67,23 +69,36 @@ body{
     width:27%;
     margin-left: 2.5%;
     padding: 2%;
-    background-color: #4F9DA6;
+    background-color: #edf5f6;
     border-radius: 10%;
 }
 .one-third-width-2{
     width:27%;
     margin-left: 2.5%;
     padding: 2%;
-    background-color: #FF5959;
+    background-color: #ffeeee;
     border-radius: 10%;
 }
 .one-third-width-3{
     width:27%;
     margin-left: 2.5%;
     padding: 2%;
-    background-color: #FFF4D6;
+    background-color: #fff4d6;
     border-radius: 10%;
 }
+.about-me{
+    
+    text-align: center;
+    background-color: blanchedalmond;
+    width: 70%;
+    padding: 2%;
+    margin: 5% auto;
+    border-radius: 10px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    box-shadow: 10px 10px 40px gray;
+}
+
 .color-orange{
     color: #FF5959;
 }
