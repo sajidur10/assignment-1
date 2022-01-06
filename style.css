@@ -27,7 +27,6 @@ body{
     width:40%;
     margin-left: 5%;
     padding-left: 2%;
-    display: flex;
     padding-top: 10%;
 }
 .half-width-1 img{
@@ -37,7 +36,6 @@ body{
     width:40%;
     margin-left: 5%;
     padding-left: 2%;
-    display: flex;
 }
 .half-width-2 img{
     width: 80%;
@@ -49,4 +47,57 @@ body{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.one-third-width{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+.one-third-width img{
+    width: 50%;
+}
+.section-2-my-mission{
+    font-family: 'Poppins', sans-serif;
+}
+.section-2-h2{
+    font-size: 45px;
+    text-align: center;
+}
+.one-third-width-1{
+    width:27%;
+    margin-left: 2.5%;
+    padding: 2%;
+    background-color: #4F9DA6;
+    border-radius: 10%;
+}
+.one-third-width-2{
+    width:27%;
+    margin-left: 2.5%;
+    padding: 2%;
+    background-color: #FF5959;
+    border-radius: 10%;
+}
+.one-third-width-3{
+    width:27%;
+    margin-left: 2.5%;
+    padding: 2%;
+    background-color: #FFF4D6;
+    border-radius: 10%;
+}
+.color-orange{
+    color: #FF5959;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+    color: #FFFFFF;
+}
+footer p{
+    color: #D9DBE1;
+    font-family: 'Manrope', sans-serif;
 }
